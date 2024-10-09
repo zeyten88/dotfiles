@@ -1,12 +1,12 @@
 # i3_dotfiles
-Built on Arch Linux.
+# Built on Arch Linux.
 
-Dependencies:
+# Dependencies:
 
-PACMAN - 
-i3, polybar, pipewire, kitty, rofi, nemo, blueman-applet, nm-applet, feh, flameshot, pavucontrol, neofetch, rust, cmake, cargo, htop
+# PACMAN - 
+# i3, polybar, pipewire, kitty, rofi, nemo, blueman-applet, nm-applet, feh, flameshot, pavucontrol, neofetch, rust, cmake, cargo, htop
 
-# sudo pacman -Syu i3wm polybar pipewire kitty rofi nemo blueman-applet nm-applet feh flameshot pavucontrol neofetch rust cmake cargo htop
+sudo pacman -Syu i3wm polybar pipewire kitty rofi nemo blueman-applet nm-applet feh flameshot pavucontrol neofetch rust cmake cargo htop
 
-AUR -
-wal, 
+# AUR -
+#  wal, 
