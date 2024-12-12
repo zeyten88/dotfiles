@@ -1,5 +1,5 @@
 # i3_dotfiles
-# Built on Arch Linux.
+ Built on Arch Linux.
 
 # Dependencies:
 
