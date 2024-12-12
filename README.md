@@ -6,7 +6,7 @@
 # Dependencies:
 
 # PACMAN - 
-sudo pacman -Syu i3wm polybar pipewire wireplumber kitty rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
+sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
 
 # AUR -
 yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git
