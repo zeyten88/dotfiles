@@ -9,8 +9,8 @@
 #############
 
 set $mod Mod4
-set $terminal kitty
-set $file_manager nemo
+set $terminal alacritty
+set $file_manager dolphin
 
 ########
 ##FONT##
@@ -21,30 +21,28 @@ font pango:JetBrainsMonoBold 9
 #########
 ##STYLE##
 #########
-
-
-gaps outer 10
+gaps outer 0
+gaps inner 10
+gaps top 40
+for_window [class="^.*"] border pixel 0
 for_window [all] title_window_icon on
 for_window [all] title_window_icon padding 5px
-for_window [class=".*"] border pixel 5
-default_border pixel 8
 title_align center
-gaps inner 10px
-gaps top 46px
 
 #############
 ##AUTOSTART##
 #############
 
 exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i ~/Pictures/Wallpapers/wallpaperflare.com_wallpaper.jpg
 exec --no-startup-id nm-applet
 exec --no-startup-id ~/.config/polybar/launch.sh
+exec --no-startup-id setxkbmap -layout us,pl -option grp:lalt_toggle
 exec --no-startup-id wal -R
 exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/wallpaperflare.com_wallpaper.jpg
-exec --no-startup-id kitty
+exec --no-startup-id $terminal
 exec --no-startup-id sunshine
 exec --no-startup-id blueman-applet
+exec_always autotiling
 
 #################
 ###KEYBINDINGS###
@@ -202,8 +200,7 @@ bindsym $mod+r mode "resize"
 
 #Compositor
 
-exec_always picom 
-
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 
 #screenshot
 bindsym Print exec flameshot gui

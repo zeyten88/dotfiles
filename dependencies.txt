@@ -1,0 +1,4 @@
+pacman:
+pacman -Syu brightnessctl picom polybar nerd-fonts ttf-nerd-fonts-symbols alacritty gtk6 gtk5 sddm cava rofi feh dolphin flameshot pipewire wireplumber pavucontrol
+yay:
+yay -S open-fprintd fprintd-clients-git python-validity i3lock-fancy-git catnap autotiling wal
