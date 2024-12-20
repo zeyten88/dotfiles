@@ -12,8 +12,10 @@ d88888P Y88888P    YP       YP    Y88888P VP   V8P
 
 # Dependencies
 - Pacman
+#
 sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
 - yay
+#
 yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git
 
 #Screenshots:
