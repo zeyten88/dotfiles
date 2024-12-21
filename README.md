@@ -1,8 +1,6 @@
 # Made By <br>
-<img src="https://ztn-network.pl/logo-small.png" alt="Alt Text" width="200" height="250">
+<img src="https://ztn-network.pl/logo-small.png" alt="Alt Text" width="200" height="250"><br> <h1>zeyten</h1>
 # i3_dots <br>
-
-
 # Dependencies
 - Pacman <br>
 sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
