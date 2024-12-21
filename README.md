@@ -1,5 +1,5 @@
 # Made By <br>
-zeyten<img src="https://ztn-network.pl/logo-small.png" alt="Alt Text" width="200" height="250"><br>
+<img src="https://ztn-network.pl/logo-small.png" alt="Alt Text" width="200" height="250">zeyten<br>
 # i3_dots <br>
 # Dependencies
 - Pacman <br>
