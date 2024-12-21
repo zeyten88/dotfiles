@@ -1,7 +1,7 @@
 # i3 dots - Made By <br>
 <div style="display: flex; align-items: center; text-align: center;">
   <img src="https://ztn-network.pl/logo-small.png" alt="Your Image" style="width: 200px; margin-right: 10px;">
-  <span>zeyten</span>
+  <span style="font-size: 32px; line-height: 1.5;">zeyten</span>
 </div>
 
 # Screenshots:<br>
