@@ -1,8 +1,8 @@
 # Made By <br>
-<table style="width:100%; text-align:center; vertical-align:middle;">
+<table border:none; style="width:100%; text-align:center; vertical-align:middle;">
   <tr>
     <td><img src="https://ztn-network.pl/logo-small.png" alt="alt text" width="200"></td>
-    <td style="font-size:24px; vertical-align:middle;">zeyten</td>
+    <h1 vertical-align:middle;">zeyten</h1>
   </tr>
 </table>
 
