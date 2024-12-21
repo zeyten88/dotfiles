@@ -1,5 +1,5 @@
 # Made By <br>
-<img src="ztn-network.pl://logo-small.png" alt="Alt Text" width="300" height="200">
+<img src="https://ztn-network.pl/logo-small.png" alt="Alt Text" width="200" height="200">
 
        
 
