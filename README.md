@@ -1,4 +1,5 @@
-# Made By<br>   ![image](https://github.com/user-attachments/assets/5bf2ded8-eb30-40eb-a926-15754406ddca)
+# Made By <br>
+<img src="ztn-network.pl://logo-small.png" alt="Alt Text" width="300" height="200">
 
        
 
