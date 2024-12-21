@@ -1,10 +1,11 @@
 # Made By <br>
-<table border="0" style="width:100%; text-align:center; vertical-align:middle;">
+<table>
   <tr>
-    <td><img src="https://ztn-network.pl/logo-small.png" alt="alt text" width="200"></td>
-    <vertical-align:middle;">zeyten</h1>
+    <td><img src="https://ztn-network.pl/logo-small.png" alt="logo" width="200"></td>
+    <td style="font-size:24px; text-align:center; vertical-align:middle;">zeyten</td>
   </tr>
 </table>
+
 
 # i3_dots <br>
 # Screenshots:<br>
