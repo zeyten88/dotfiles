@@ -10,35 +10,35 @@ Screenshots: <br>
 # Dependencies <br>
 
 - Pacman <br>
-i3wm
-polybar
-pipewire
-wireplumber
-rofi
-nemo
-blueman-applet
-nm-applet
-feh
-flameshot
-pavucontrol
-rust
-cmake
-cargo
-htop
-cava
-alacritty
-ttf-nerd-fonts-symbols
-nerd-fonts
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
+i3wm<br>
+polybar<br>
+pipewire<br>
+wireplumber<br>
+rofi<br>
+nemo<br>
+blueman-applet<br>
+nm-applet<br>
+feh<br>
+flameshot<br>
+pavucontrol<br>
+rust<br>
+cmake<br>
+cargo<br>
+htop<br>
+cava<br>
+alacritty<br>
+ttf-nerd-fonts-symbols<br>
+nerd-fonts<br>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts *
 
 - yay <br>
-wal
-autotiling
-catnap
-open-fprintd
-python-validity
-fprintd-clients-git
-i3lock-fancy-git
-----------------------------------------------------------------------------------------------
-yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git
+wal<br>
+autotiling<br>
+catnap<br>
+open-fprintd<br>
+python-validity<br>
+fprintd-clients-git<br>
+i3lock-fancy-git<br>
+----------------------------------------------------------------------------------------------------
+* yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git *
