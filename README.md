@@ -1,5 +1,4 @@
 ![image](https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c)
-<<<<<<< HEAD
 # Arch Dots <br> - Made by zeyten<br>
 * My dotfiles for daily use on desktops.
 
@@ -9,35 +8,35 @@ Screenshots:
 ## Dependencies <br>
 
 ## Pacman
-- hyprland
-- hyprlock
-- hypridle
-- swww
-- waybar
-- wofi
-- alacritty
-- pipewire
-- wireplumber
-- nautilus
-- slurp
-- grim
-- nm-applet
-- nerd-fonts
-- ttf-nerd-fonts-symbols
--------------------------------------------------------------------
+- hyprland<br>
+- hyprlock<br>
+- hypridle<br>
+- swww<br>
+- waybar<br>
+- wofi<br>
+- alacritty<br>
+- pipewire<br>
+- wireplumber<br>
+- nautilus<br>
+- slurp<br>
+- grim<br>
+- nm-applet<br>
+- nerd-fonts<br>
+- ttf-nerd-fonts-symbols<br>
+------------------------------------------------------
 ```bash
 sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nm-applet nerd-fonts ttf-nerd-fonts-symbols
+```
 
 
 ## yay
-- nwg-look
-- wlogout
-- catnap
+- nwg-look<br>
+- wlogout<br>
+- catnap<br>
+------------------------------------------------------
 ```bash
 yay -S nwg-look wlogout catnap
-=======
-# Arch Dots <br> - Made by zeyten
-* My dotfiles for daily use on desktops.
+```
 
 # i3 <br>
 Screenshots: <br>
@@ -66,10 +65,10 @@ Screenshots: <br>
 - alacritty<br>
 - ttf-nerd-fonts-symbols<br>
 - nerd-fonts<br>
----------------------------------------------------------------------------------
+------------------------------------------------------
 ```bash
 sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
-
+```
 ## yay <br>
 - wal<br>
 - autotiling<br>
@@ -78,7 +77,7 @@ sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-a
 - open-fprintd // only if you have fingerprint available on laptop/pc for all packages below <br>
 - python-validity<br>
 - fprind-clients-git
-----------------------------------------------------------------------------------------------------
+------------------------------------------------------
 ```bash
 yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git
-
+```
