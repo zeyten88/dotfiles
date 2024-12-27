@@ -12,36 +12,35 @@ Screenshots: <br>
 
 * Pacman <br>
 
-i3wm<br>
-polybar<br>
-pipewire<br>
-wireplumber<br>
-rofi<br>
-nemo<br>
-blueman-applet<br>
-nm-applet<br>
-feh<br>
-flameshot<br>
-pavucontrol<br>
-rust<br>
-cmake<br>
-cargo<br>
-htop<br>
-cava<br>
-alacritty<br>
-ttf-nerd-fonts-symbols<br>
-nerd-fonts<br>
+- i3wm<br>
+- polybar<br>
+- pipewire<br>
+- wireplumber<br>
+- rofi<br>
+- nemo<br>
+- blueman-applet<br>
+- nm-applet<br>
+- feh<br>
+- flameshot<br>
+- pavucontrol<br>
+- rust<br>
+- cmake<br>
+- cargo<br>
+- htop<br>
+- cava<br>
+- alacritty<br>
+- ttf-nerd-fonts-symbols<br>
+- nerd-fonts<br>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts *
 
 * yay <br>
-
-wal<br>
-autotiling<br>
-catnap<br>
-open-fprintd<br>
-python-validity<br>
-fprintd-clients-git<br>
-i3lock-fancy-git<br>
+- wal<br>
+- autotiling<br>
+- i3lock-fancy-git<br>
+- catnap<br>
+- open-fprintd // only if you have fingerprint available on laptop/pc for all packages below <br>
+- python-validity<br>
+- fprind-clients-git
 ----------------------------------------------------------------------------------------------------
 * yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git *
