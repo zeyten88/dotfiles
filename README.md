@@ -4,7 +4,7 @@
 <h1 align="center">hyprland</h1> <br>
 <h2 align="center">Screenshots:</h2>
 
-<h2>Dependencies</h2> <br>
+<h2 align="center">Dependencies</h2> <br>
 
 <h3>Pacman</h3>
 - hyprland<br>
@@ -23,24 +23,21 @@
 - nerd-fonts<br>
 - ttf-nerd-fonts-symbols<br>
 ------------------------------------------------------
-```bash
-sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nm-applet nerd-fonts ttf-nerd-fonts-symbols
-```
 
+```
+sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nm-applet nerd-fonts ttf-nerdfonts
+```
 
 <h3>yay</h3>
 - nwg-look<br>
 - wlogout<br>
 - catnap<br>
 ------------------------------------------------------
-```bash
-yay -S nwg-look wlogout catnap
-```
 
 <h1 align="center">i3-wm</h1> <br>
 <h2 align="center">Screenshots:</h2>
 <img src="https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e"></img>
-<h2>Dependencies</h2><br>
+<h2 align="center">Dependencies</h2>
 
 <h3>Pacman</h3><br>
 
@@ -64,7 +61,8 @@ yay -S nwg-look wlogout catnap
 - ttf-nerd-fonts-symbols<br>
 - nerd-fonts<br>
 ------------------------------------------------------
-```bash
+
+```
 sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
 ```
 <h3>yay</h3><br>
@@ -76,6 +74,7 @@ sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-a
 - python-validity<br>
 - fprind-clients-git
 ------------------------------------------------------
-```bash
+
+```
 yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git
 ```
