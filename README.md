@@ -1,4 +1,5 @@
 ![image](https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c)
+<<<<<<< HEAD
 # Arch Dots <br> - Made by zeyten<br>
 * My dotfiles for daily use on desktops.
 
@@ -34,6 +35,9 @@ sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire 
 - catnap
 ```bash
 yay -S nwg-look wlogout catnap
+=======
+# Arch Dots <br> - Made by zeyten
+* My dotfiles for daily use on desktops.
 
 # i3 <br>
 Screenshots: <br>
@@ -62,7 +66,7 @@ Screenshots: <br>
 - alacritty<br>
 - ttf-nerd-fonts-symbols<br>
 - nerd-fonts<br>
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 ```bash
 sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
 
