@@ -4,76 +4,82 @@
 <h1 align="center">hyprland</h1> <br>
 <h2 align="center">Screenshots:</h2>
 
-<h2 align="center">Dependencies</h2> <br>
-
-<h3>Pacman</h3>
-- hyprland<br>
-- hyprlock<br>
-- hypridle<br>
-- swww<br>
-- waybar<br>
-- wofi<br>
-- alacritty<br>
-- pipewire<br>
-- wireplumber<br>
-- nautilus<br>
-- slurp<br>
-- grim<br>
-- nm-applet<br>
-- nerd-fonts<br>
-- ttf-nerd-fonts-symbols<br>
-------------------------------------------------------
+<h2 align="center">Dependencies</h2>
+    <h3>Pacman</h3>
+    <ul>
+        <li>hyprland</li>
+        <li>hyprlock</li>
+        <li>hypridle</li>
+        <li>swww</li>
+        <li>waybar</li>
+        <li>wofi</li>
+        <li>alacritty</li>
+        <li>pipewire</li>
+        <li>wireplumber</li>
+        <li>nautilus</li>
+        <li>slurp</li>
+        <li>grim</li>
+        <li>nm-applet</li>
+        <li>nerd-fonts</li>
+        <li>ttf-nerd-fonts-symbols</li>
+    </ul>
 
 ```
 sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nm-applet nerd-fonts ttf-nerdfonts
 ```
 
-<h3>yay</h3>
-- nwg-look<br>
-- wlogout<br>
-- catnap<br>
-------------------------------------------------------
+ <h3>yay</h3>
+    <ul>
+        <li>nwg-look</li>
+        <li>wlogout</li>
+        <li>catnap</li>
+    </ul>
+    
+```
+yay -S nwg-look wlogout catnap
+```
 
 <h1 align="center">i3-wm</h1> <br>
 <h2 align="center">Screenshots:</h2>
 <img src="https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e"></img>
 <h2 align="center">Dependencies</h2>
 
-<h3>Pacman</h3><br>
-
-- i3wm<br>
-- polybar<br>
-- pipewire<br>
-- wireplumber<br>
-- rofi<br>
-- nemo<br>
-- blueman-applet<br>
-- nm-applet<br>
-- feh<br>
-- flameshot<br>
-- pavucontrol<br>
-- rust<br>
-- cmake<br>
-- cargo<br>
-- htop<br>
-- cava<br>
-- alacritty<br>
-- ttf-nerd-fonts-symbols<br>
-- nerd-fonts<br>
-------------------------------------------------------
+<h3>Pacman</h3>
+    <ul>
+        <li>i3wm</li>
+        <li>polybar</li>
+        <li>pipewire</li>
+        <li>wireplumber</li>
+        <li>rofi</li>
+        <li>nemo</li>
+        <li>blueman-applet</li>
+        <li>nm-applet</li>
+        <li>feh</li>
+        <li>flameshot</li>
+        <li>pavucontrol</li>
+        <li>rust</li>
+        <li>cmake</li>
+        <li>cargo</li>
+        <li>htop</li>
+        <li>cava</li>
+        <li>alacritty</li>
+        <li>ttf-nerd-fonts-symbols</li>
+        <li>nerd-fonts</li>
+    </ul>
 
 ```
 sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
 ```
-<h3>yay</h3><br>
-- wal<br>
-- autotiling<br>
-- i3lock-fancy-git<br>
-- catnap<br>
-- open-fprintd // only if you have fingerprint available on laptop/pc for all packages below <br>
-- python-validity<br>
-- fprind-clients-git
-------------------------------------------------------
+ <<h3>yay</h3>
+    <ul>
+        <li>wal</li>
+        <li>autotiling</li>
+        <li>i3lock-fancy-git</li>
+        <li>catnap</li>
+        <li>open-fprintd (only if you have fingerprint available on laptop/pc)</li>
+        <li>python-validity</li>
+        <li>fprintd-clients-git</li>
+    </ul>
 
 ```
 yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git
