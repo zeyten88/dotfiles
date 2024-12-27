@@ -1,12 +1,12 @@
 <h1 align="center"><img src="https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c">Arch Dots - Made by zeyten</h1>
 * My dotfiles for daily use on desktops.
 
-# hyprland <br>
+<h1 align="center">hyprland</h1> <br>
 Screenshots:
 
-## Dependencies <br>
+<h2>Dependencies</h2> <br>
 
-## Pacman
+<h3>Pacman</h3>
 - hyprland<br>
 - hyprlock<br>
 - hypridle<br>
@@ -28,7 +28,7 @@ sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire 
 ```
 
 
-## yay
+<h3>yay</h3>
 - nwg-look<br>
 - wlogout<br>
 - catnap<br>
@@ -37,13 +37,13 @@ sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire 
 yay -S nwg-look wlogout catnap
 ```
 
-# i3 <br>
+<h1 align="center">i3</h1> <br>
 Screenshots: <br>
 ![2024-12-12_21-53](https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e)
 
-## Dependencies <br>
+<h2>Dependencies</h2><br>
 
-## Pacman <br>
+<h3>Pacman</h3><br>
 
 - i3wm<br>
 - polybar<br>
@@ -68,7 +68,7 @@ Screenshots: <br>
 ```bash
 sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
 ```
-## yay <br>
+<h3>yay</h3><br>
 - wal<br>
 - autotiling<br>
 - i3lock-fancy-git<br>
