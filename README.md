@@ -10,7 +10,7 @@ Screenshots: <br>
 
 ## Dependencies <br>
 
-* Pacman <br>
+## Pacman <br>
 
 - i3wm<br>
 - polybar<br>
@@ -34,7 +34,7 @@ Screenshots: <br>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts *
 
-* yay <br>
+## yay <br>
 - wal<br>
 - autotiling<br>
 - i3lock-fancy-git<br>
