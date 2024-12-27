@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c) 
-# Dotfiles for Arch Linux, - zeyten
+![image](https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c) Arch dotfiles
+# - zeyten
 
 
 
