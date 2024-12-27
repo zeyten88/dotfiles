@@ -39,8 +39,7 @@ yay -S nwg-look wlogout catnap
 
 <h1 align="center">i3-wm</h1> <br>
 <h2 align="center">Screenshots:</h2>
-![2024-12-12_21-53](https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e)
-
+<img src="https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e"></img>
 <h2>Dependencies</h2><br>
 
 <h3>Pacman</h3><br>
