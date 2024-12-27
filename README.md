@@ -8,9 +8,9 @@
 Screenshots: <br>
 ![2024-12-12_21-53](https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e)
 
-# Dependencies <br>
+## Dependencies <br>
 
-# Pacman <br>
+## Pacman <br>
 
 i3wm<br>
 polybar<br>
@@ -34,7 +34,7 @@ nerd-fonts<br>
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts *
 
-# yay <br>
+## yay <br>
 
 wal<br>
 autotiling<br>
