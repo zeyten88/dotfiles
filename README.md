@@ -70,7 +70,7 @@ yay -S nwg-look wlogout catnap
 ```
 sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-applet feh flameshot pavucontrol rust cmake cargo htop cava alacritty ttf-nerd-fonts-symbols nerd-fonts
 ```
- <<h3>yay</h3>
+ <h3>yay</h3>
     <ul>
         <li>wal</li>
         <li>autotiling</li>
