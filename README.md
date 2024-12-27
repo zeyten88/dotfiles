@@ -1,5 +1,4 @@
-# ![Logo](https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c) Arch Dots - Made by zeyten<br>
-<h1 align="center">![Logo](https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c) Arch Dots - Made by zeyten</h1>
+<h1 align="center"><img src="https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c">Arch Dots - Made by zeyten</h1>
 * My dotfiles for daily use on desktops.
 
 # hyprland <br>
