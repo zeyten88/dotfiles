@@ -1,11 +1,9 @@
-# i3 dots - Made By <br>
-<div style="display: flex; align-items: center; text-align: center;">
-  <img src="https://ztn-network.pl/logo-small.png" alt="Your Image" style="width: 200px; margin-right: 10px;">
-  <span style="font-size: 32px; line-height: 1.5;">zeyten</span>
-</div>
+# Dotfiles for Arch ![image](https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c)
 
+
+
+# i3 <br>
 # Screenshots:<br>
-
 ![2024-12-12_21-53](https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e)
 # Dependencies
 - Pacman <br>
