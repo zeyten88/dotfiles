@@ -23,10 +23,11 @@
         <li>nm-applet</li>
         <li>nerd-fonts</li>
         <li>ttf-nerd-fonts-symbols</li>
+        <li>starship</li>
     </ul>
 
 ```
-sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nm-applet nerd-fonts ttf-nerdfonts
+sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nm-applet nerd-fonts ttf-nerdfonts starship
 ```
 
  <h3>yay</h3>
