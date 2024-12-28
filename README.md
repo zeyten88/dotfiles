@@ -3,6 +3,8 @@
 
 <h1 align="center">hyprland</h1> <br>
 <h2 align="center">Screenshots:</h2>
+<img src ="https://github.com/user-attachments/assets/a7c852f2-9d75-4d6c-ae2a-0d55a43b6e9b"></img>
+<img src ="https://github.com/user-attachments/assets/dd233827-9bcf-455b-b913-389f0bad8542"</img>
 
 <h2 align="center">Dependencies</h2>
     <h3>Pacman</h3>
