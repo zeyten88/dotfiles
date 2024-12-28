@@ -2,7 +2,6 @@
 <p align="center">My dotfiles for daily use on desktops. pzdr benc</p>
 
 <h1 align="center">hyprland</h1> <br>
-<h2 align="center">Screenshots:</h2>
 <img src ="https://github.com/user-attachments/assets/a7c852f2-9d75-4d6c-ae2a-0d55a43b6e9b"></img>
 <img src ="https://github.com/user-attachments/assets/dd233827-9bcf-455b-b913-389f0bad8542"</img>
 
@@ -42,7 +41,6 @@ yay -S nwg-look wlogout catnap
 ```
 
 <h1 align="center">i3-wm</h1> <br>
-<h2 align="center">Screenshots:</h2>
 <img src="https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e"></img>
 <h2 align="center">Dependencies</h2>
 
