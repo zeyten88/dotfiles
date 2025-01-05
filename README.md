@@ -34,6 +34,14 @@ sudo pacman -Syu i3wm polybar pipewire wireplumber rofi nemo blueman-applet nm-a
 ```
 yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3lock-fancy-git
 ```
+<h4> sway dependencies> </h4>
+
+```
+sudo pacman -Syu nautilus pipewire wireplumber waybar nerd-fonts ttf-nerd-fonts-symbols swayfx sway grim slurp
+```
+```
+yay -S catnap yazi swaylock-fancy swappy
+```
 <h1 align="center"> 📷 Gallery </h1><br>
 
 <h2 align="center">Hyprland </h2>
@@ -44,3 +52,6 @@ yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3
 
 <h2 align="center">i3-wm</h2> <br>
 <img src="https://github.com/user-attachments/assets/987df2de-6f1b-46bd-92c3-1ff018e7f53e"></img>
+<h2 align="center">swayFX</h2> <br>
+<img src="https://github.com/user-attachments/assets/d9726ca1-8a8e-48b2-bea4-2b9e21a75895"</img>
+<img src="https://github.com/user-attachments/assets/fc05be00-8a4e-4b3f-a7d9-6f6fd7b8a558"></img>
