@@ -58,6 +58,7 @@ yay -S catnap yazi swaylock-fancy swappy
 <h2 align="center">swayFX</h2> <br>
 <img src="https://github.com/user-attachments/assets/d9726ca1-8a8e-48b2-bea4-2b9e21a75895"</img>
 <img src="https://github.com/user-attachments/assets/fc05be00-8a4e-4b3f-a7d9-6f6fd7b8a558"></img>
+<hr>
 
 <h2 align="center"> Neovim </h2>
 ⚠️ Needs ttf-nerdfonts and multiple npm packages to function
