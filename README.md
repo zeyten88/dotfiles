@@ -6,6 +6,7 @@
 
 <h1 align="center">Installation and notes</h1>
 <h2> 📋 Description </h2>
+<hr>
 <ul>
     <li><b>OS:</b> Arch Linux</li>
     <li><b>Window Manager:</b> hyprland, i3wm, swayFX</li>
@@ -17,6 +18,7 @@
 </ul>
 
 <h2> ⬇️ Dependencies </h2>
+<hr>
 <h4> Hyprland dependencies</h4>
 
 ```
@@ -45,6 +47,7 @@ sudo pacman -Syu nautilus pipewire wireplumber waybar nerd-fonts ttf-nerd-fonts-
 yay -S catnap yazi swaylock-fancy swappy
 ```
 <h1 align="center"> 📷 Gallery </h1><br>
+<hr>
 
 <h2 align="center">Hyprland </h2>
 <img src ="https://github.com/user-attachments/assets/a7c852f2-9d75-4d6c-ae2a-0d55a43b6e9b"></img>
