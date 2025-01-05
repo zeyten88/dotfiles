@@ -1,3 +1,5 @@
+<img alt="Static Badge" src="https://img.shields.io/badge/Dotfiles-black?logo=archlinux&logoSize=auto">
+
 <h1 align="center"><img src="https://github.com/user-attachments/assets/65766207-72ff-4373-9d14-0403dec7e37c">Arch Dots - Made by zeyten</h1>
 <p align="center">My dotfiles for daily use on desktops. pzdr benc</p>
 
@@ -6,7 +8,7 @@
 <h2> 📋 Description </h2>
 <ul>
     <li><b>OS:</b> Arch Linux</li>
-    <li><b>Window Manager:</b> hyprland,i3wm, swayFX</li>
+    <li><b>Window Manager:</b> hyprland, i3wm, swayFX</li>
     <li><b>Bar:</b> polybar, waybar</li>
     <li><b>Launcher:</b> rofi, wofi</li>
     <li><b>Terminal:</b> Alacritty</li>
