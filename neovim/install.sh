@@ -15,11 +15,9 @@ progress() {
     local width=$2
     local message=$3
     
-    # Progress bar characters
     local bar_char="▰"
     local empty_char="▱"
     
-    # Create progress bar
     local fill
     local empty
     local progress
@@ -66,23 +64,21 @@ print_header
 # Variables for paths
 CONFIG_PATH="$HOME/.config/nvim"
 THEMES_PATH="$CONFIG_PATH/lua/themes"
+CORE_PATH="$CONFIG_PATH/lua/core"
+PLUGINS_PATH="$CONFIG_PATH/lua/plugins"
 CURRENT_DIR=$(pwd)
 
 # Trap function with styled error
 trap 'error_msg "Installation failed. Please check the error messages above and try again."; exit 1' ERR
 
 # Create directories with progress indicators
-if [ ! -d "$CONFIG_PATH" ]; then
-    status_msg "Creating Neovim configuration directory..."
-    mkdir -p "$CONFIG_PATH"
-    progress 1 20 "Setting up config directory"
-fi
-
-if [ ! -d "$THEMES_PATH" ]; then
-    status_msg "Creating themes directory..."
-    mkdir -p "$THEMES_PATH"
-    progress 1 20 "Setting up themes directory"
-fi
+for dir in "$CONFIG_PATH" "$THEMES_PATH" "$CORE_PATH" "$PLUGINS_PATH"; do
+    if [ ! -d "$dir" ]; then
+        status_msg "Creating directory: $dir"
+        mkdir -p "$dir"
+        progress 1 20 "Setting up $(basename "$dir") directory"
+    fi
+done
 
 # Copy files with progress
 status_msg "Copying configuration files..."
@@ -96,11 +92,31 @@ else
     exit 1
 fi
 
+# Copy core files
+if [ -d "$CURRENT_DIR/lua/core" ]; then
+    cp -rf "$CURRENT_DIR/lua/core/"* "$CORE_PATH/"
+    progress 2 20 "Installing core files"
+    success_msg "Core files installed successfully"
+else
+    error_msg "Core directory not found!"
+    exit 1
+fi
+
+# Copy plugin files
+if [ -d "$CURRENT_DIR/lua/plugins" ]; then
+    cp -rf "$CURRENT_DIR/lua/plugins/"* "$PLUGINS_PATH/"
+    progress 2 20 "Installing plugin files"
+    success_msg "Plugin files installed successfully"
+else
+    error_msg "Plugins directory not found!"
+    exit 1
+fi
+
 # Copy theme files
 if [ -f "$CURRENT_DIR/lua/themes/ztnn.lua" ] && [ -f "$CURRENT_DIR/lua/themes/ztnnstartup.lua" ]; then
     cp -f "$CURRENT_DIR/lua/themes/ztnn.lua" "$THEMES_PATH/"
     cp -f "$CURRENT_DIR/lua/themes/ztnnstartup.lua" "$THEMES_PATH/"
-    progress 2 20 "Installing startup theme"
+    progress 2 20 "Installing themes"
     success_msg "Themes installed successfully"
 else
     error_msg "Theme files not found in lua/themes directory!"
