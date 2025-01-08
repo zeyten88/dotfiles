@@ -83,6 +83,23 @@ done
 # Copy files with progress
 status_msg "Copying configuration files..."
 
+# Define plugin files to copy
+PLUGIN_FILES=(
+    "which-key.lua"
+    "treesitter.lua"
+    "telescope.lua"
+    "startup.lua"
+    "project.lua"
+    "nvim-tree.lua"
+    "lualine.lua"
+    "lsp.lua"
+    "gitsigns.lua"
+    "cmp.lua"
+    "autopairs.lua"
+    "bufferline.lua"
+    "terminal.lua"
+)
+
 # Copy init.lua
 if cp -f "$CURRENT_DIR/init.lua" "$CONFIG_PATH/"; then
     progress 2 20 "Installing init.lua"
@@ -102,15 +119,18 @@ else
     exit 1
 fi
 
-# Copy plugin files
-if [ -d "$CURRENT_DIR/lua/plugins" ]; then
-    cp -rf "$CURRENT_DIR/lua/plugins/"* "$PLUGINS_PATH/"
-    progress 2 20 "Installing plugin files"
-    success_msg "Plugin files installed successfully"
-else
-    error_msg "Plugins directory not found!"
-    exit 1
-fi
+# Copy plugin files individually
+status_msg "Installing plugin files..."
+for plugin in "${PLUGIN_FILES[@]}"; do
+    if [ -f "$CURRENT_DIR/lua/plugins/$plugin" ]; then
+        cp -f "$CURRENT_DIR/lua/plugins/$plugin" "$PLUGINS_PATH/"
+        progress 1 20 "Installing $plugin"
+        success_msg "$plugin installed successfully"
+    else
+        error_msg "Plugin file $plugin not found!"
+        exit 1
+    fi
+done
 
 # Copy theme files
 if [ -f "$CURRENT_DIR/lua/themes/ztnn.lua" ] && [ -f "$CURRENT_DIR/lua/themes/ztnnstartup.lua" ]; then
@@ -137,6 +157,5 @@ echo " █████████ ▀█████▀████  ███�
 echo -e "${NC}"
 echo
 echo -e "${GREEN}${BOLD}Installation completed successfully!${NC}"
-echo -e "${CYAN}Start nvim to experience your new setup!${NC}"
 echo
 

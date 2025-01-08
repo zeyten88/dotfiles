@@ -1,21 +1,46 @@
 return {
   "nvim-telescope/telescope.nvim",
-  requires = { "nvim-lua/plenary.nvim" },
+  dependencies = { 
+    "nvim-lua/plenary.nvim",
+  },
   config = function()
+    local telescope = require("telescope")
     local actions = require("telescope.actions")
-    require("telescope").setup({
+    local builtin = require("telescope.builtin")
+
+    telescope.setup({
       defaults = {
+        prompt_prefix = " ",
+        selection_caret = " ",
+        path_display = { "truncate" },
+        layout_config = {
+          horizontal = {
+            prompt_position = "top",
+            preview_width = 0.55,
+          },
+        },
         mappings = {
-          i = { ["<C-q>"] = actions.send_to_qflist + actions.open_qflist },
+          i = {
+            ["<C-j>"] = actions.move_selection_next,
+            ["<C-k>"] = actions.move_selection_previous,
+            ["<C-q>"] = actions.send_to_qflist + actions.open_qflist,
+            ["<ESC>"] = actions.close,
+          },
+        },
+      },
+      pickers = {
+        find_files = {
+          theme = "dropdown",
         },
       },
     })
     
     local map = vim.keymap.set
     local opts = { noremap = true, silent = true }
-    map("n", "<leader>ff", ":Telescope find_files<CR>", opts)
-    map("n", "<leader>fg", ":Telescope live_grep<CR>", opts)
-    map("n", "<leader>fr", ":Telescope oldfiles<CR>", opts)
-    map("n", "<leader>fp", ":Telescope projects<CR>", opts)
+    
+    -- Basic file operations
+    map("n", "<leader>ff", builtin.find_files, opts)
+    map("n", "<leader>fg", builtin.live_grep, opts)
+    map("n", "<leader>fr", builtin.oldfiles, opts)
   end,
 } 
