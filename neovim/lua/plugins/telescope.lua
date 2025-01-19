@@ -39,8 +39,17 @@ return {
     local opts = { noremap = true, silent = true }
     
     -- Basic file operations
-    map("n", "<leader>ff", builtin.find_files, opts)
-    map("n", "<leader>fg", builtin.live_grep, opts)
-    map("n", "<leader>fr", builtin.oldfiles, opts)
+    map("n", "<leader>ff", builtin.find_files, { noremap = true, silent = true, desc = "Find files" })
+    map("n", "<leader>fg", builtin.live_grep, { noremap = true, silent = true, desc = "Live grep" })
+    map("n", "<leader>fr", builtin.oldfiles, { noremap = true, silent = true, desc = "Recent files" })
+    
+    -- Config file finder
+    map("n", "<leader>fc", function()
+      builtin.find_files({
+        prompt_title = "Config Files",
+        cwd = vim.fn.stdpath("config"),
+        hidden = true,
+      })
+    end, { noremap = true, silent = true, desc = "Find config files" })
   end,
 } 

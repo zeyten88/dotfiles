@@ -15,8 +15,8 @@ progress() {
     local width=$2
     local message=$3
     
-    local bar_char="▰"
-    local empty_char="▱"
+    local bar_char="="
+    local empty_char="-"
     
     local fill
     local empty
@@ -29,7 +29,7 @@ progress() {
         empty=$(printf "%$((width - i))s" "" | tr ' ' "${empty_char}")
         progress=$(((i * 100) / width))
         
-        echo -n -e "\r${CYAN}${message}${NC} ${BLUE}[${fill}${empty}] ${progress}%${NC}"
+        echo -n -e "\r${CYAN}${message}${NC} ${BLUE}|${fill}${empty}| ${progress}%${NC}"
         sleep "$((duration / width))"
     done
     echo
@@ -89,8 +89,7 @@ PLUGIN_FILES=(
     "treesitter.lua"
     "telescope.lua"
     "startup.lua"
-    "project.lua"
-    "nvim-tree.lua"
+    "mini-files.lua"
     "lualine.lua"
     "lsp.lua"
     "gitsigns.lua"
