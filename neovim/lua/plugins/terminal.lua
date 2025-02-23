@@ -42,17 +42,15 @@ return {
     })
 
     -- Function to toggle lazygit
-    function _lazygit_toggle()
+    function lazygit_toggle()
       lazygit:toggle()
     end
 
     -- Keymaps
     local map = vim.keymap.set
     local opts = { noremap = true, silent = true }
-    
     map('n', '<leader>tt', ':ToggleTerm<CR>', opts)          -- Toggle terminal
     map('n', '<leader>tg', '<cmd>lua _lazygit_toggle()<CR>', opts)  -- Toggle lazygit
-    
     -- Terminal navigation
     function _G.set_terminal_keymaps()
       local topts = {buffer = 0}
@@ -67,4 +65,4 @@ return {
     -- Auto-set terminal keymaps
     vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
   end,
-} 
+}

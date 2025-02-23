@@ -1,6 +1,6 @@
 return {
   "nvim-telescope/telescope.nvim",
-  dependencies = { 
+  dependencies = {
     "nvim-lua/plenary.nvim",
   },
   config = function()
@@ -34,15 +34,12 @@ return {
         },
       },
     })
-    
     local map = vim.keymap.set
     local opts = { noremap = true, silent = true }
-    
     -- Basic file operations
     map("n", "<leader>ff", builtin.find_files, { noremap = true, silent = true, desc = "Find files" })
     map("n", "<leader>fg", builtin.live_grep, { noremap = true, silent = true, desc = "Live grep" })
     map("n", "<leader>fr", builtin.oldfiles, { noremap = true, silent = true, desc = "Recent files" })
-    
     -- Config file finder
     map("n", "<leader>fc", function()
       builtin.find_files({
@@ -52,4 +49,4 @@ return {
       })
     end, { noremap = true, silent = true, desc = "Find config files" })
   end,
-} 
+}

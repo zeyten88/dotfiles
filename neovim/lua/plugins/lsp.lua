@@ -46,7 +46,7 @@ return {
       local on_attach = function(client, bufnr)
         opts.buffer = bufnr
 
-        -- set keybinds
+        -- LSP Keymaps
         opts.desc = "Show LSP references"
         vim.keymap.set("n", "gR", "<cmd>Telescope lsp_references<CR>", opts)
 
@@ -87,28 +87,25 @@ return {
         vim.keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts)
       end
 
-      -- used to enable autocompletion (assign to every lsp server config)
       local capabilities = cmp_nvim_lsp.default_capabilities()
 
-      -- Change the Diagnostic symbols in the sign column (gutter)
+      -- Diagnostic signs
       local signs = { Error = " ", Warn = " ", Hint = "󰠠 ", Info = " " }
       for type, icon in pairs(signs) do
         local hl = "DiagnosticSign" .. type
         vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
       end
 
-      -- configure lua server (with special settings)
+      -- Lua LSP settings
       lspconfig["lua_ls"].setup({
         capabilities = capabilities,
         on_attach = on_attach,
-        settings = { -- custom settings for lua
+        settings = {
           Lua = {
-            -- make the language server recognize "vim" global
             diagnostics = {
               globals = { "vim" },
             },
             workspace = {
-              -- make language server aware of runtime files
               library = {
                 [vim.fn.expand("$VIMRUNTIME/lua")] = true,
                 [vim.fn.stdpath("config") .. "/lua"] = true,
@@ -118,7 +115,7 @@ return {
         },
       })
 
-      -- configure other servers
+      -- Configure other servers
       local servers = {
         "ts_ls",
         "html",

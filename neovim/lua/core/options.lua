@@ -29,4 +29,4 @@ vim.opt.fillchars = {
     foldopen = "▾",
     foldsep = "│",
     foldclose = "▸",
-} 
+}
