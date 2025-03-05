@@ -41,10 +41,10 @@ yay -s wal autotiling catnap open-fprintd python-validity fprintd-clients-git i3
 <h4> sway dependencies </h4>
 
 ```
-sudo pacman -Syu nautilus pipewire wireplumber waybar nerd-fonts ttf-nerd-fonts-symbols swayfx sway grim slurp starship
+sudo pacman -Syu nautilus pipewire wireplumber waybar nerd-fonts ttf-nerd-fonts-symbols grim slurp starship
 ```
 ```
-yay -S catnap yazi swaylock-fancy swappy
+yay -S catnap yazi swaylock-fancy swappy swayfx
 ```
 <h1 align="center"> 📷 Gallery </h1><br>
 <hr>
