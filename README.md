@@ -22,11 +22,11 @@
 <h4> Hyprland dependencies</h4>
 
 ```
-sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nerd-fonts starship
+sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nerd-fonts starship inotify-tools
 ```
 
 ```
-yay -S nwg-look wlogout catnap ttf-nerdfonts nm-applet
+yay -S nwg-look wlogout catnap ttf-nerd-fonts-symbols nm-applet
 ```
 
 <h4>i3wm dependencies</h4>
