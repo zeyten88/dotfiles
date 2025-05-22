@@ -26,7 +26,7 @@ sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire 
 ```
 
 ```
-yay -S nwg-look wlogout catnap ttf-nerd-fonts-symbols nm-applet
+yay -S nwg-look wlogout catnap ttf-nerd-fonts-symbols nm-applet catppuccin-gtk-theme-mocha
 ```
 
 <h4>i3wm dependencies</h4>
