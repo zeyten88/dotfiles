@@ -22,7 +22,7 @@
 <h4> Hyprland dependencies</h4>
 
 ```
-sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nerd-fonts starship inotify-tools pavucontrol brightnessctl
+sudo pacman -Syu hyprland hyprlock hypridle swww waybar wofi alacritty pipewire wireplumber nautilus slurp grim nerd-fonts starship inotify-tools pavucontrol brightnessctl xbindkeys
 ```
 
 ```
